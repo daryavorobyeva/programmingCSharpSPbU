@@ -1,7 +1,8 @@
 ﻿class Program
 {
-    private static void Main()
+    public static void Main()
     {
 
     }
 }
+
