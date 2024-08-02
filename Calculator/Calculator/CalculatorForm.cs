@@ -14,7 +14,10 @@ public partial class CalculatorForm : Form
 
     private void UpdateFontSize()
     {
-        if (result.Text.Length == 0) return;
+        if (result.Text.Length == 0) 
+	{
+	    return;
+	}
 
         Font font = result.Font;
         Size textSize = TextRenderer.MeasureText(result.Text, font);
