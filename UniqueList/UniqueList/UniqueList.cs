@@ -1,5 +1,5 @@
 ﻿using SimpleList;
-using UniqueList.Exeptions;
+using UniqueList.Exceptions;
 
 namespace UniqueList;
 
