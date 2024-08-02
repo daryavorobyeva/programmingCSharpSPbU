@@ -25,7 +25,7 @@ class Program
             {
                 Console.WriteLine("Wrong input!");
                 Console.WriteLine(choosingText);
-            };
+            }
 
 
             switch (action)
