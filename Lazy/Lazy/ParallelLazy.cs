@@ -9,7 +9,7 @@ public class ParallelLazy<T> : ILazy<T> where T : class
     private Func<T>? supplier;
     private T? value;
     private Exception? supplierExeption;
-    private object locker = new();
+    private readonly object locker = new();
 
     /// <summary>
     /// Standard lazy object constructor.
